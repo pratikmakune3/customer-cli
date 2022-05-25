@@ -1,0 +1,13 @@
+{
+  "name": "customer-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "preferGlobal": true,
+  "bin": "./commands.js",
+  "dependencies": {
+    "commander": "^9.2.0",
+    "inquirer": "^8.2.4"
+  }
+}
